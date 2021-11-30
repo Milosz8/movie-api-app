@@ -10,7 +10,7 @@ const MovieAppWrapper = styled.div`
   background: black;
   color: white;
   text-align: center;
-  letter-spacing: 5px;
+  letter-spacing: 0.5rem;
 
   .row {
     flex-wrap: wrap;

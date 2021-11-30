@@ -8,12 +8,13 @@ const MovieListWrapper = styled.div`
     width: 100%;
     max-width: 400px;
     transition-duration: 500ms;
+    border: 2px solid gray;
   }
   hr {
     border-top: 5px solid red;
   }
   img:hover {
-    transform: scale(1.08);
+    transform: scale(1.02);
     transition-duration: 500ms;
   }
   h1,
@@ -21,6 +22,10 @@ const MovieListWrapper = styled.div`
     padding: 1rem 0;
     background: #262626;
     border-radius: 10px;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 1rem auto;
   }
 `;
 

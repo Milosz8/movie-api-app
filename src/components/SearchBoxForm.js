@@ -31,7 +31,7 @@ export default function SearchBoxForm(props) {
         className="form-control"
         value={props.value}
         onChange={(event) => props.setSearchValue(event.target.value)}
-        placeholder="Search"
+        placeholder="Search..."
       ></input>
     </SearchBoxWrapper>
   );
